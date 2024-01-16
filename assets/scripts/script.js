@@ -26,7 +26,7 @@ async function fetchCoordinates(location){
 
     if(location){
 
-        const baseUrlCoordinates = "http://api.openweathermap.org/geo/1.0/direct";
+        const baseUrlCoordinates = "https://api.openweathermap.org/geo/1.0/direct";
 
         const queryParams = new URLSearchParams({
 
