@@ -583,6 +583,8 @@ function displayMessage(message,duration){
     const messageArea = document.createElement("div");
 
     messageArea.className = "alert alert-danger";
+
+    messageArea.style.textAlign = "center";
     
     messageArea.textContent = message;
 
